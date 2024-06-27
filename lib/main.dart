@@ -1,8 +1,6 @@
 import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:geolocator/geolocator.dart';
-import 'package:location/NotificationService.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 void main() {
@@ -21,7 +19,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   static const platform = MethodChannel('com.example.location_service');
 
-  NotificationService notificationService = NotificationService();
 
   @override
   void initState() {
