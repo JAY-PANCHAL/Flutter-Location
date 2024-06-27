@@ -51,3 +51,6 @@ Once the app is running, it will start the background location service. The serv
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+
+
